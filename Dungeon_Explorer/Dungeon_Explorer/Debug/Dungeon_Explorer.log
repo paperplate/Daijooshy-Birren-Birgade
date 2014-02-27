@@ -1,0 +1,20 @@
+﻿Build started 26/02/2014 2:52:51 PM.
+     1>Project "c:\Users\ghostxero\documents\visual studio 2010\Projects\Dungeon_Explorer\Dungeon_Explorer\Dungeon_Explorer.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\ghostxero\documents\visual studio 2010\Projects\Dungeon_Explorer\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Dungeon_Explorer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\SFML\include /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_STATIC /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Dungeon_Explorer.exe.embed.manifest.res" Debug\Dungeon_Explorer_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\ghostxero\documents\visual studio 2010\Projects\Dungeon_Explorer\Debug\Dungeon_Explorer.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SFML\lib "sfml-graphics.lib" "sfml-window.lib" "sfml-audio.lib" "sfml-system.lib" "sfml-network.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Dungeon_Explorer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\ghostxero\documents\visual studio 2010\Projects\Dungeon_Explorer\Debug\Dungeon_Explorer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\ghostxero\documents\visual studio 2010\Projects\Dungeon_Explorer\Debug\Dungeon_Explorer.lib" /MACHINE:X86 Debug\Dungeon_Explorer.exe.embed.manifest.res
+         Debug\main.obj
+     1>LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt
+     1>Done Building Project "c:\Users\ghostxero\documents\visual studio 2010\Projects\Dungeon_Explorer\Dungeon_Explorer\Dungeon_Explorer.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.36
